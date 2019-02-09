@@ -1,22 +1,30 @@
+# Dependencies
+markdown:            kramdown
+
+redcarpet:
+  extensions: ["tables", "fenced_code_block"]
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+
+exclude:      ["*.Rmd"]
+
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
+title:               Data Mining course
+tagline:             'Data Mining kurs dla studentów UKSW'
+description:         'Wykład i ćwiczenia Data Mining dla studentów WMP.SNŚ UKSW'
+url:                 http://sebkaz.github.io/DataMining
+baseurl:             /
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Sebastian Zając
+  url:               https://sebastianzajac.pl
+  email:             s.zajac@uksw.eud.pl
 
 # Custom vars
 version:             1.0.0
