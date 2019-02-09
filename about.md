@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-url: http://sebkaz.github.io/DataMining/About
+url: http://sebkaz.github.io/DataMining/about
 ---
 
 # Data Mining w środowisku python dla studentów UKSW w Warszawie
