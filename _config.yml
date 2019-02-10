@@ -1,6 +1,5 @@
 # Dependencies
-#markdown:            kramdown
-markdown:             maruku
+markdown:            kramdown
 
 redcarpet:
   extensions: ["tables", "fenced_code_block"]
