@@ -1,7 +1,6 @@
 ---
-layout: add letter
-title: Czego będziemy się uczyć ?
-author: Sebastian Zając
+layout: page
+title: 01 -- Czego będziemy się uczyć ?
 mathjax: true
 ---
 
@@ -9,12 +8,12 @@ mathjax: true
 
 Rozwój technologii generowania, gromadzenia i przetwarzania danych oraz upowszechnienie systemów komputerowych (spadek cen i wzrost świadomości użytkowników) oznacza olbrzymi wolumen danych do przechowywania. Narzędziami cyfrowego generowania danych są między innymi kody kreskowe, karty płatnicze, aparaty cyfrowe, email, sieci RFID, edytory tekstu itp.
 
-**Według raportu UC Berkeley z 2002:**
+**Raporty o danych:**
 
-- W 2011 powstało \(1.8\) zettabajtów danych (12 miliardów dwugodzinnych filmów HD).
+- W 2011 powstało $1.8$ zettabajtów danych (12 miliardów dwugodzinnych filmów HD).
 - firma IDC Digital Universe przeprowadziła badania *Extracting Value from Chaos*  gdzie odnotowano wzrost cyfrowych danych ponad dwukrotnie co dwa lata (szybciej niż prawo Moore'a).
 - $400 000$ TB emaili rocznie (biblioteka kongeru USA to $\sim 10$ TB - 30 mln książek)
-- \(\sim 40\%\) wszystkich danych na świecie pochodzi z USA
+- $\sim 40\%$ wszystkich danych na świecie pochodzi z USA
 
 ## Gdzie zostawiasz najwięcej informacji o sobie ?
 
@@ -30,7 +29,7 @@ Wiele firm i przedsiębiorstw, instytucji oraz ośrodków naukowych dysponuje ba
 
 ## WWW jako źródło danych
 
-Jednym z największych źródeł danych jest obecnie **sieć WEB** zawierająca ponad 40 miliardów zaindeksowanych stron wg. [WorldWideWebSize.com](http://www.worldwidewebsize.com). Obecnie **at least 4.49 billion pages** (Friday, 16 February, 2018).
+Jednym z największych źródeł danych jest obecnie **sieć WEB** zawierająca ponad 40 miliardów zaindeksowanych stron wg. [WorldWideWebSize.com](http://www.worldwidewebsize.com). Rok temu **at least 4.49 billion pages** (Friday, 16 February, 2018). Obecnie **at least 5.55 billion pages** (Thursday, 14 February, 2019).
 
 ### W  jakim celu przechowuje się tak olbrzymie wolumeny danych ?
 
