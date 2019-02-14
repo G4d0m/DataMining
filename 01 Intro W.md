@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: add letter
 title: Czego będziemy się uczyć ?
 author: Sebastian Zając
 mathjax: true

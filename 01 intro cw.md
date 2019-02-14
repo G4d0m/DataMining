@@ -1,8 +1,7 @@
-title: Wszystko co będzie nam potrzebne
-slug: intro
-category: Cwiczenia
-date: 2018-02-23
-Author: Sebastian Zajac
+---
+layout: page
+title: 01 -- Ćwiczenia
+---
 
 # Git - system kontroli wersji
 
@@ -61,7 +60,7 @@ git push -u origin master
 
 ## Zadanie 2
 
-Zapamiętaj na każdych następnych zajęciach zapisz wszystko w swoim repozytorium.
+Zapamiętaj! Na każdych następnych zajęciach zapisz wszystko w swoim repozytorium.
 
 # Oprogramowanie
 
@@ -98,6 +97,8 @@ Pakiety doinstalowywać należy narzędziem pip.
 
 ```{bash}
 pip install <nazwa-pakietu>
+# przykład
+pip install advanced-scorecard-builder
 # bądź dla pakietów anacondy
 conda install <nazwa-pakietu>
 # update pakietów anacondy
@@ -160,7 +161,7 @@ import matplotlib.pyplot as plt
 Po instalacji odpowiedniej wersji Anacondy zapoznaj się z nawigatorem i jego wszystkimi opcjami.
 
 Bardzo dobrym rozwiązaniem przy instalacji Pythona bądź Anacondy jest korzystanie z narzędzia do środowiska wirtualnego _virtualenv_.
-Więcej informacji na temat wirtualnego środowiska możesz znaleźć [tutaj](http://sebastianzajac.pl/Blog/b_30_06.html).
+Więcej informacji na temat wirtualnego środowiska możesz znaleźć [tutaj](https://docs.python.org/3/tutorial/venv.html).
 
 ### Jupyter notebook
 
@@ -180,7 +181,7 @@ jupyter notebook
 jupyter-notebook
 ```
 
-Można również wykorzystać Anaconda Navigator.
+Można również wykorzystać graficzny interfejs Anaconda Navigator.
 
 ## Zadanie 3
 
@@ -188,4 +189,4 @@ Zapoznaj się z notatnikiem Jupyter [learn more](https://www.youtube.com/watch?v
 
 ## Uwaga
 
-Do Anacondy można doinstalować środowisko R postępując zgodnie z [instrukcją](https://www.anaconda.com/developer-blog/jupyter-and-conda-r/).
+Do Anacondy można doinstalować środowisko R postępując zgodnie z [instrukcją](https://www.anaconda.com/developer-blog/jupyter-and-conda-r/). Ponadto możliwe jest zainstalowanie obsługi innych języków programowania takich jak `Haskel` czy `Ruby`. Wszystkie dodatkowe kernele możesz pobrać z [repo](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
