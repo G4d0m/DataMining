@@ -21,7 +21,7 @@ Mechanizm wyszukiwania Google każdego dnia przetwarza setki milionów zapytań.
 
 ### Główne źródła danych
 
-- Działalnośc przedsiębiorstw i instytucji (banki, ubezpieczalnie, sieci handlowe, urzędy ...). Sieć sprzedaży Wal-Mart gromadzi dziennie dane dotyczące 20 milionów trnasakcji. AT&T obsługuje miliardy połączeń dziennie. Danych jest tyle, że nie zapisuje się ich a analizy prowadzone są 'on the fly'.
+- Działalność przedsiębiorstw i instytucji (banki, ubezpieczalnie, sieci handlowe, urzędy ...). Sieć sprzedaży Wal-Mart gromadzi dziennie dane dotyczące 20 milionów trnasakcji. AT&T obsługuje miliardy połączeń dziennie. Danych jest tyle, że nie zapisuje się ich a analizy prowadzone są 'on the fly'.
 - Ośrodki naukowe: $10^9$ rekordów danych astronomicznych, $10^2 \sim 10^3$ atrybutów w systemach diagnozy medycznej. Very Long Baseline Interferometry posiada 16 teleskopów, gdzie każdy produkuje 1 Gigabit/sec danych astronomicznych w czasie 25 dniowej sesji obserwacyjnej.
 - Baza danych [BrainMaps](http://brainmaps.org) zawiera ponad 50 TB danych z mapami mózgów ssaków.
 
@@ -129,7 +129,7 @@ Modelami mogą być:
 - struktyry drzewiaste,
 - wzory rekurencyjne w szeregach czasowych.
 
-Rola badacz DM - jak znaleźć informacje, które wzorce są nieznane i mogą być użyteczne ?
+Rola badacz DM - jak znaleźć informacje, których wzorce są nieznane i mogą być użyteczne ?
 
 # Zakres wiedzy analityka danych
 
@@ -141,6 +141,8 @@ To nauka o zadawaniu pytań, odkrywaniu wyjaśnienia i stawiania hipotez. Mies
 [Jak działa Data Science](https://www.youtube.com/watch?v=tKa0zDDDaQk).
 
 [Jak uczyć się Data Science](https://www.youtube.com/watch?v=Ura_ioOcpQI).
+
+[Kurs Machine Learning - Andrew Ng, Stanford](https://www.youtube.com/watch?v=PPLop4L2eGk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
 
 ## Matematyka
 
@@ -171,3 +173,6 @@ Dobra prezentacja danych pozwala szybko odczytać ważne informacje
 Znajomość analizowanej dziedziny: finanse, administracja, biznes, nauka itp.
 
 Realizacja zadań nauki o danych wymaga wielu specjalistów.
+
+# Co po eksploracji danych ? 
+
