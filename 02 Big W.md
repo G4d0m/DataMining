@@ -119,9 +119,9 @@ Obecnie analizuje się :
 
 # Prawdopodobieństwo sukcesu projektu eksploracji danych
 
-## [Busines Case Study](https://helion.pl/ksiazki/microsoft-sql-server-modelowanie-i-eksploracja-danych-danuta-mendrala-marcin-szeliga,sqlsme.htm#format/d) 
+## [Busines Case Study](http://helion.pl/add111546~sqlsme) 
 
-Firma Y planuje wprowadzić na rynek nową serię produktów. Na podstawie swojego dotychczasowego działania i doświadczenia oszacowała ona szansę powodzenia tych produktów na $10\%$. Oszacowanie to wzięto z informacji, iż dotychczas 1 na 10 produktów odnosił sukces. Czyli 9 na 10 produktów ponosi porażkę. Firma zwraca się do nas o pomoc gdyż chce zwiększyć prawdopodobieństwo sukcesu. **Do dzieła zacznij budować swoje modele eksploracji danych.**
+Firma Y planuje wprowadzić na rynek nową serię produktów. Na podstawie swojego dotychczasowego działania i doświadczenia oszacowała ona szansę powodzenia tych produktów na $10\%$. Oszacowanie to wzięto z informacji, iż dotychczas 1 na 10 produktów odnosił sukces. Czyli 9 na 10 produktów ponosi porażkę. Firma zwraca się do nas o pomoc, gdyż chce zwiększyć prawdopodobieństwo sukcesu. **Do dzieła zacznij budować swoje modele eksploracji danych.**
 
 ### Co proponujesz ?
 
@@ -131,7 +131,7 @@ Po zbudowaniu i przetestowaniu modelu eksploracji danych udaje nam się uzyskać
 
 Przypuśćmy, że nasz model pozytywnie ocenił wprowadzenie na rynek analizowanej serii produktów (ocena ta została pozytywnie i optymistycznie przyjęta przez dyrekcję firmy Y). Firma agresywnie inwestuje i przygotowuje promocję nowej serii produktów ($80\%$ szans sukcesu !). Okazuje się jednak, że jedynie co trzeci produkt odniósł sukces, a koszty kampanii promocyjnej ledwo się zwróciły. Wina za tą sytuację (oczywistość) spada na Nas. Gdzie popełniono błąd ? 
 
-Pomyliliśmy dokładność modelu ($80\%$) z jego skutecznością w rozwiązywaniu postawionego problemu. Załóżmy , że nowa seria liczyła 100 produktów, a szanse na sukces każdego z nich, zarówno obliczone z modelu jak i ocenione na podstawie świadczeń firmy , są dokładnie takie same jak szanse sukcesu pozostałych produktów z tej serii.
+Pomyliliśmy dokładność modelu ($80\%$) z jego skutecznością w rozwiązywaniu postawionego problemu. Załóżmy , że nowa seria liczyła 100 produktów, a szanse na sukces każdego z nich, zarówno obliczone z modelu jak i ocenione na podstawie świadczeń firmy, są dokładnie takie same jak szanse sukcesu pozostałych produktów z tej serii.
 
 1. Ze 100 należących do nowej serii produktów 10 odniesie sukces, a 90 porażkę. 
 2. $30\%$ z tych 90 odrzuconych przez rynek produktów (27) nasz model błędnie ocenił jako rynkowy hit. 
