@@ -7,7 +7,7 @@ title: 02 -- Python intro
 
 Ustawiając zawartość komórki jako Markdown możesz generować opisy swoich kodów. Język Markdown jest językiem znaczników podobnym do HTML czy Latex. Kod napisany w html i LateX również jest przetwarzany w notatniku, także pisząc w Markdown możesz tak naprawdę posługiwać się wszystkimi tymi językami. Specyfikację oraz info możesz znaleźć [tutaj](http://daringfireball.net/projects/markdown/).
 
-Ściągnij [Plik]({filename}/files/Markdown.ipynb) i otwórz go.
+Ściągnij [Plik](notebooks/Markdown.ipynb) i otwórz go.
 
 Komórkę w notatniku uruchamiamy wciskając _Shift+Enter_.
 
@@ -331,3 +331,5 @@ d.items()
 'x' in [1,2,3]
 'x' in ['x','y','z']
 ```
+
+## Klasy i obiekty
