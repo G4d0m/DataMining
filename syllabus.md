@@ -62,15 +62,11 @@ Zajęcia odbywają się w **czwartki** w sali 124 b. 24.
 - **Wykład** od 8:00 do 9:30
 - **Laboratorium** od 9:45 do 11:15
 
-1. Tydzień 1 (21.02.2019) - informacje ogólne
-2. Tydzień 2 (28.02.2019) - konfiguracja środowiska Git i Anaconda
-3. Tydzień 3 (07.03.2019) - Pobieranie danych
-4. Tydzień 4 (15.03.2018) - Eksploracyjna analiza danych
 
-date        | Wykład      | ćwiczenia
+data        | Wykład      | ćwiczenia
 ------------|-------------|-----------------
 Luty 21  |Wiadomości wstępne | Software installation|
-Luty 28 | TBA 
+Luty 28 | Big Data | Python podstawy| 
 Marzec 7  | TBA   
 Marzec 15  | TBA  
 
