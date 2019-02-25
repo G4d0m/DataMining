@@ -23,7 +23,7 @@ Jeśli dysponujesz odpowiednimi danymi, prawidłowo przeprowadzona eksploracja d
 
 Określony w 1996 standardowy proces dopasowania eksploracji danych do ogólnej strategii rozwiązywania problemów komórki biznesowej lub badawczej.
 
-![CRISP1]({filename}/images/rys2.png)
+![CRISP1](img/rys2.png)
 
 ## Zrozumienie problemu
 
