@@ -20,6 +20,6 @@ title: Strony WWW
 
 ## Python
 
-- [Note on Using **Data Science & AI**](https://chrisalbon.com/)
+- [Chris Albon](https://chrisalbon.com/) Technical Notes on Using **Data Science & AI** 
 - [40+ Python Statistics For Data Science Resources](https://www.datacamp.com/community/tutorials/python-statistics-data-science)
 - [Practical Business Python](http://pbpython.com/)

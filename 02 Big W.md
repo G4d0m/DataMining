@@ -7,7 +7,7 @@ mathjax: true
 
 Na początku był ... **CHAOS**
 
-## Szumnie o Big Data
+# Szumnie o Big Data
 
 Zachowaj sceptycyzm słysząc o Big Data gdyż:
 
@@ -16,6 +16,23 @@ Zachowaj sceptycyzm słysząc o Big Data gdyż:
 3. Nauka o danych - połączenie statystki i inżynierii technologicznej
 
 Jeśli dysponujesz odpowiednimi danymi, prawidłowo przeprowadzona eksploracja danych pozwala zdobyć wiedzę, która w innym przypadku byłaby dostępna dopiero po fakcie. Prawdziwość uzyskanych informacji może być zmierzona i obiektywnie oceniona.
+
+
+# Cel analizy danych
+
+Cztery podstawowe cele każdej analizy danych 
+
+**Zrozumieć, Przewidzieć, Sprawdzić, Zobaczyć**.
+
+- __Zrozumieć__ to cel eksploracyjnej analizy danych. Wykorzystaj wykresy, tabele, modele aby poszerzyć wiedzę o zależnościach w danych.
+
+- __Przewidzieć__ (analiza predykcyjna) przyszłe wartości zmiennej na podstawie innych zmiennych. Wyróżniamy dwa podejścia - czarna skrzynka (bez modelu) oraz biała skrzynka (z modelem ). 
+
+- __Sprawdź__ czy twoje hipotezy są prawidłowe za pomocą testów statystycznych. 
+
+- __Zobaczyć__ opis zjawiska poprzez wykresy.   
+
+
 
 # Metodyka CRISP-DM
 
