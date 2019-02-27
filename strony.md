@@ -6,6 +6,10 @@ title: Strony WWW
 
 # Strony WWW
 
+## Przetwarzanie danych
+
+1. [data cookbook](https://www.datafix.com.au/cookbook/index.html)
+
 ## Zbiory danych
 
 - [KDnuggets](https://www.kdnuggets.com)
