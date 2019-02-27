@@ -8,6 +8,3 @@ Strona WWW: http://sebkaz.github.io/DataMining
 
 Prowadzący: [Sebastian Zając](https://sebastianzajac.pl)
 <[s.zajac@uksw.edu.pl](mailto:s.zajac@uksw.edu.pl)>
-
-test
-
