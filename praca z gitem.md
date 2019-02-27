@@ -8,7 +8,7 @@ title: Praca z systemem git
 Tekst na podstawie [strony](http://pbiecek.github.io/Przewodnik/Programowanie/jak_korzystac_z_serwisu_github_i_waffle.html)
 
 
-![Final](\img\final.gif)
+![Final](img/final.gif)
 
 Pracując nad projektem np. praca magisterska, (samodzielnie lub w zespole) często potrzebujesz sprawdzić jakie zmiany, kiedy i przez kogo zostały wprowadzone do projektu. W zadaniu tym świetnie sprawdza się system kontroli wersji czyli [GIT](https://git-scm.com). 
 
