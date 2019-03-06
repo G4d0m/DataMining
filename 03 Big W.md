@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 02 -- Jak bardzo BIG to big ?
+title: 03 -- Jak bardzo BIG to big ?
 mathjax: true
 ---
 

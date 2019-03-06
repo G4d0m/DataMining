@@ -121,7 +121,7 @@ Python obsługuje wszystkie podstawowe **typy skalarne**: _liczby całkowite_, _
 5 % 2
 ```
 
-## przypisawanie zmiennych
+## Przypisawanie zmiennych
 
 Zmienne przechowujące dowolne wartości do których możemy odwoływać się podając nazwę zmiennej, tworzymy używając operatora przypisania $=$.
 
@@ -333,3 +333,18 @@ d.items()
 ```
 
 ## Klasy i obiekty
+
+```{python}
+class Test():
+    pass
+
+a1 = Test()
+b2 = Test()
+
+```
+
+Przykład 1
+
+```{python}
+class 
+```

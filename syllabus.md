@@ -65,9 +65,9 @@ Zajęcia odbywają się w **czwartki** w sali 124 b. 24.
 
 data        | Wykład      | ćwiczenia
 ------------|-------------|-----------------
-Luty 21  |Wiadomości wstępne | Software installation|
-Luty 28 | Big Data | Python podstawy| 
-Marzec 7  | TBA   
+Luty 21  |Wiadomości wstępne | |
+Luty 28 |  Software installation, Python cz1| 
+Marzec 7  | Big Data  | Python cz2| 
 Marzec 15  | TBA  
 
 

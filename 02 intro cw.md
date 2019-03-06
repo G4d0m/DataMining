@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 01 -- Ćwiczenia
+title: 02 -- Instalacja oprogramowania
 ---
 
 # Git - system kontroli wersji
