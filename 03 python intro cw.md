@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 02 -- Python intro
+title: 03 -- Python intro
 ---
 
 # Markdown in Jupyter and R
@@ -346,5 +346,43 @@ b2 = Test()
 Przykład 1
 
 ```{python}
-class 
+class Figura():
+    '''First class'''
+    def __init__(self, x ,y):
+        self.x = x
+        self.y = y
+
+    def info(self):
+        print(self.x, self.y)
+
+    def zmien(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def przesun(self, dx, dy):
+        self.info()
+        self.x, self.y = self.x+dx, self.y + dy
+        self.info()
+
+o = Figura(1,-2)
+o.info()
+o.zmien(2,4)
+o.info()                
 ```
+
+Przykład 2 (Dziedziczenie)
+```{python}
+class Okrag(Figura):
+    def __init__(self, x, y, r=1):
+        super().__init__(x, y)
+        self.r = r
+
+    def info(self):
+        print(f'x={self.x}, y={self.y}, r={self.r}')
+
+
+ok = Okrag(0,0,3)
+ok.info()
+ok.przesun(10,15)           
+```
+
