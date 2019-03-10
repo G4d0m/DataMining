@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dane zawsze są błędne
+title: Statystyka 
 ---
 
 # Dane zawsze są błędne
