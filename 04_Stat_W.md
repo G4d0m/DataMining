@@ -43,4 +43,34 @@ Zbiór atrybutów jednego obiektu nazywamy **przypadkiem**. Np. zmierzony w dany
 
 Przykładowe dane w postaci tabelarycznej:
 
-![TablicaDanych](images/rys4.png)
+![TablicaDanych](img/rys4.png)
+
+# Podział atrybutów, typy danych
+
+Ze względu na rodzaj mierzonej wielkości atrybuty dzielimy najczęściej na **ciągłe** lub **dyskretne**. Lepszym podziałem danych jest pogrupowanie ich w następujące typy danych:
+
+![TypyDanych](img/rys5.png)
+
+1. **Cechy jakościowe** (_niemierzalne_, _kategoryjne_) to takie, których nie można jednoznacznie scharakteryzować za pomocą lich (czyli mie da się ich zmierzyć). Np. płeć, etykiety, kategorie produktów,grupa krwi, kolor itp.
+
+![jakosc](img/rys6.png)
+
+- Nie można policzyć wartości średniej, min, max.
+- Nie można uporządkować wartośći.
+
+2. **Cechy porządkowe**  umożliwiają porządkowanie wszystkich elementów zbioru wyników. Cechy takie najlepiej określa się przymiotnikami i ich stopniowaniem. Np. wzrost (niski, średni, wysoki), wykształcenie (podstawowe, średnie, wyższe), ocena filmu itp.
+
+3. **Cechy ilościowe** (_mierzalne_) dadzą się wyrazić za pomocą jednostek miary w pewnej skali. Np. Wzrost (w cm), waga (w kg), wiek (w latach) itp.
+
+![Ilosc](img/rys7.png)
+
+- Można z nich policzyć wartość średniej, min, max.
+- Można uporządkować wartości.
+
+## Ważne
+
+> Wynikiem oceny atrybutów powinno być uzyskanie odpowiedzi na następujące pytania:
+
+1. Czy zakres wartości atrybutów obejmuje wszystkie przypadki będące przedmiotem analizy?
+2. Czy częstotliwości występowania poszczególnych wartości atrybutów są zgodne z doświadczeniem i intuicją eksperta dziedzinowego?
+
