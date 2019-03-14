@@ -129,8 +129,6 @@ plt.plot(squares)
 plt.show()
 ```
 
-![wynik1](img/cw1.png)
-
 
 ```python
 x = [-3, 5, 7]
@@ -145,8 +143,6 @@ plt.title('Line Plot')
 plt.suptitle('Figure Title', size=20, y=1.03)
 # plt.savefig('test.png') # zapis do pliku
 ```
-
-    Text(0.5, 1.03, 'Figure Title')
 
 
 ![wynik2](img/cw2.png)

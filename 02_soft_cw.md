@@ -27,7 +27,7 @@ W przypadku githuba możesz pobrać repozytorium jako plik zip.
 
 * _Tworzenie repozytorium dla lokalnego katalogu_
 
-```{bash}
+```bash
 # tworzenie nowego katalogu
 mkdir datamining
 # przejście do katalogu
@@ -41,13 +41,13 @@ echo "Info " >> README.md
 
 * Połącz lokalne repozytorium z kontem na githubie
 
-```{bash}
+```bash
 git remote add origin https://github.com/<twojGit>/nazwa.git
 ```
 
 * Obsługa w 3 krokach
 
-```{bash}
+```bash
 # sprawdź zmiany jakie zostały dokonane
 git status
 # 1. dodaj wszystkie zmiany
@@ -87,7 +87,7 @@ Powstał w 1991 roku (Guido van Rossum) jako ogólny, _interpretowany_, _zorient
 W przypadku systemu Windows wszystkie potrzebne pliki instalacyjne znajdziesz na [www.python.org](http://www.python.org/downloads/).
 Zawsze wybieraj wersję 3. Po uruchomieniu w konsoli polecenia:
 
-```{bash}
+```bash
 python -V
 ```
 
@@ -95,7 +95,7 @@ powinieneś uzyksać informację o wersji pythona.
 
 Pakiety doinstalowywać należy narzędziem pip.
 
-```{bash}
+```bash
 pip install <nazwa-pakietu>
 # przykład
 pip install advanced-scorecard-builder
@@ -115,7 +115,7 @@ Dla ułatwienia i szybszej instalacji pakietów i środowiska przydatnego do ana
 
 * [NumPy](http://www.numpy.org) - wielowymiarowe tablice reprezentujące wektory i macierze, bogaty zestaw operacji matematycznych, optymalna alokacja pamięci. 
 
-```{python}
+```python
 import numpy as np
 ```
 
@@ -123,7 +123,7 @@ import numpy as np
 
 * [Pandas](http://pandas.pydata.org) - dzięki strukturom danych typu _DataFrame_ i _Series_ pozwala obsługiwać złożone tablice danych z różnymi typami (nieobsługiwane w NumPy i SciPy).
 
-```{python}
+```python
 import pandas as pd
 ```
 
@@ -133,7 +133,7 @@ import pandas as pd
 
 * [Matplotlib](http://matplotlib.org) - wizualizacja danych.
 
-```{python}
+```python
 import matplotlib.pyplot as plt
 ```
 
@@ -151,7 +151,7 @@ Najczęściej ładowane pakiety w pythonie
 
 **Zapamiętaj**
 
-```{Python}
+```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -169,14 +169,14 @@ Uruchamianie notatnika:
 
 * dla systemów Linux, Unix:
 
-```{bash}
+```bash
 # przejdź do katalogu home
 jupyter notebook
 ```
 
 * dla systemów Windows:
 
-```{bash}
+```bash
 # przejdź do katalogu home
 jupyter-notebook
 ```

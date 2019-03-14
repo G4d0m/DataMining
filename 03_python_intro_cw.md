@@ -15,7 +15,7 @@ Komórkę w notatniku uruchamiamy wciskając _Shift+Enter_.
 
 Za uruchomienie danego języka programowania odpowiada tzw. Kernel, kóry jest uruchamiany automatycznie po uruchomieniu pierwszej komórki.
 
-```{Python}
+```python
 a = 10
 print(a)
 ```
@@ -24,7 +24,7 @@ print(a)
 
 Notatnik działa jak konsola, także aby uruchomić polecenia konsolowe nie musisz przechodzić do terminala
 
-```{Python}
+```python
 !pwd # Mac, Linux
 !ls # Mac, Linux
 !dir # dla windowsa
@@ -35,14 +35,14 @@ message = "Hello World!"
 
 Korzystać również można z automatycznego uzupełniania po wciśnięciu _tab_:
 
-```{Python}
+```python
 import numpy
 numpy.random.  #use tab
 ```
 
 Zgłaszane są również wszystkie wyjątki:
 
-```{Python}
+```python
 x = 1
 y = 4
 z = y/(1-x)
@@ -50,7 +50,7 @@ z = y/(1-x)
 
 W Jupyterze masz dostęp do wielu komend _magicznych_.
 
-```{Python}
+```python
 %load?
 %matplotlib inline
 %timeit
@@ -58,7 +58,7 @@ W Jupyterze masz dostęp do wielu komend _magicznych_.
 
 Gdybyś szybko potrzebował coś zapisać do pliku:
 
-```{Python}
+```python
 %%file data.csv
 Date,Open,High,Low,Close,Volume,Adj Close
 2012-06-01,569.16,590.00,548.50,584.00,14077000,581.50
@@ -71,7 +71,7 @@ Date,Open,High,Low,Close,Volume,Adj Close
 
 A teraz LateX
 
-```{Python}
+```python
 %%latex
 \begin{aligned}
 \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\
@@ -97,7 +97,7 @@ Math(r'F(k) = \int_{-\infty}^{\infty} f(x) e^{2\pi i k} dx')
 
 Wcięcia w pythonie są bardzo istotne, za to brak nawiasów klamrowych określających bloki kodu.
 
-```{Python}
+```python
 listOfNumbers = [1, 2, 3, 4, 5, 6]
 for number in listOfNumbers:
     print(number)
@@ -112,7 +112,7 @@ print ("All done.")
 
 Python obsługuje wszystkie podstawowe **typy skalarne**: _liczby całkowite_, _liczby zmiennoprzecinkowe_, _stałe logiczne_ (True, False). Pamiętaj, iż w pythonie wszystkie typy to obiekty !
 
-```{Python}
+```python
 1 + 1
 2 * 3
 1 / 2
@@ -125,7 +125,7 @@ Python obsługuje wszystkie podstawowe **typy skalarne**: _liczby całkowite_, _
 
 Zmienne przechowujące dowolne wartości do których możemy odwoływać się podając nazwę zmiennej, tworzymy używając operatora przypisania $=$.
 
-```{python}
+```python
 nazwa_zmiennej = 2
 x = 3
 y = 5
@@ -146,7 +146,7 @@ print('My number is: {}, and my name is: {}'.format(num,name))
 
 ## Moduły
 
-```{Python}
+```python
 import numpy as np
 
 A = np.random.normal(25.0, 5.0, 10)
@@ -155,7 +155,7 @@ print (A)
 
 ## Listy
 
-```{Python}
+```python
 x = [1, 2, 3, 4, 5, 6]
 print(len(x))
 ['hi',1,[1,2]]
@@ -191,7 +191,7 @@ z
 
 ## Tuple, Krotki
 
-```{Python}
+```python
 # Tuples are just immutable lists. Use () instead of []
 x = (1, 2, 3)
 len(x)
@@ -211,14 +211,14 @@ x[1] = -2
 
 ## Sets
 
-```{python}
+```python
 {1,2,3}
 {1,2,3,1,2,1,2,3,3,3,3,2,2,2,1,1,2}
 ```
 
 ## Słowniki
 
-```{Python}
+```python
 d = {'key1':'item1','key2':'item2'}
 d['key1']
 # Like a map or hash table in other languages
@@ -241,7 +241,7 @@ for ship in captains:
 
 ## Flow, instrukcje warunkowe
 
-```{python}
+```python
 if 1 < 2:
     print('yep!')
 
@@ -260,7 +260,7 @@ else:
 
 ## Pętle
 
-```{Python}
+```python
 for x in range(10):
     print(x)
 
@@ -283,7 +283,7 @@ for item in seq:
 
 ## Funkcje
 
-```{Python}
+```python
 def SquareIt(x):
     return x * x
 
@@ -301,7 +301,7 @@ print(DoSomething(lambda x: x * x * x, 3))
 
 ## Operatory porównania i logiczne
 
-```{Python}
+```python
 1 > 2
 print(1 == 3)
 print(True or False)
@@ -318,7 +318,7 @@ else:
 
 ## Metody
 
-```{python}
+```python
 st = 'hello my name is Sam'
 st.lower()
 st.upper()
@@ -334,7 +334,7 @@ d.items()
 
 ## Klasy i obiekty
 
-```{python}
+```python
 class Test():
     pass
 
@@ -345,7 +345,7 @@ b2 = Test()
 
 Przykład 1
 
-```{python}
+```python
 class Figura():
     '''First class'''
     def __init__(self, x ,y):
@@ -371,7 +371,8 @@ o.info()
 ```
 
 Przykład 2 (Dziedziczenie)
-```{python}
+
+```python
 class Okrag(Figura):
     def __init__(self, x, y, r=1):
         super().__init__(x, y)
