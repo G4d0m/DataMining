@@ -169,7 +169,7 @@ Dzięki zastosowaniu konkretnej wartości random_state uzyskasz te same dane na 
 
 ## Pliki Excela
 
-W analogii do plików csv zobaczmy czy uda się załadować [plik excela](dane/Excel_Sample.xlsx).
+W analogii do plików csv zobaczmy czy uda się załadować [plik excela](data/Excel_Sample.xlsx).
 
 ```python
 df = pd.read_excel('Excel_Sample.xlsx', na_values = 'n/a')
@@ -228,7 +228,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 ```
 
-Ściągnij i wczytaj [dane](dane/polish_names.csv).
+Ściągnij i wczytaj [dane](data/polish_names.csv).
 
 ```python
 df = pd.read_csv("polish_names.csv")
