@@ -41,6 +41,11 @@ title: Strony WWW
 1. [Galeria ciekawych notatników](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#accessing-an-ibm-quantum-computer-via-notebooks)
 2. [Intro](https://www.youtube.com/watch?v=HW29067qVWk)
 3. [Kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
+4. [Bringing the best out of jupyter for data science](https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29)
+5. [Jupyter extensions](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
+6. [I don't like notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U)
+7. [Jupyter lab](https://www.youtube.com/watch?v=NSiPeoDpwuI)
+8. [Speed up jupyter notebook](https://towardsdatascience.com/speed-up-jupyter-notebooks-20716cbe2025)
 
 ## Przetwarzanie danych
 
