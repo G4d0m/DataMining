@@ -87,7 +87,7 @@ Jeżeli dane nad którymi chcesz pracować masz już na swoim komputerze w posta
 1. funkcja *loadtxt* z pakietu NumPy,
 2. funkcja *read_csv* z biblioteki Pandas.
 
-Przykładowy plik możesz znaleźć [tutaj](data/bikes.csv).
+Przykładowy plik możesz znaleźć [tutaj](data/bike1.csv).
 
 
 Umieść plik gdzieś na swoim dysku, tak by łatwo można było go znaleźć.
@@ -95,8 +95,23 @@ Umieść plik gdzieś na swoim dysku, tak by łatwo można było go znaleźć.
 Ponieważ wszystkie dane zawarte w pliku csv (w naszym przypadku) są typu numerycznego można posłużyć się pierwszą metodą oraz wczytać wszystko do tablicy NumPy. Ale pamiętaj, że wtedy musisz używać metod (funckji) związanych z tą biblioteką. Metoda ta jest najszybsza i zabiera najmniej pamięci.
 
 ```python
-housing = np.loadtxt('bikes.csv')
+housing = np.loadtxt('bike1.csv')
+# Bądź z wersji sieciowej 
+# housing = np.loadtxt('https://sebkaz.github.io/DataMining/data/bike1.csv')
 ```
+#### dlaczego to nie działa ?
+
+Funkcja loadtext przyjmuje, że dane są oddzielone tabulacją. Stąd jeżeli w pliku tak nie jest dodaj ustawienie *delimiter=*. W naszym przypadku dane oddzielone są przecinkiem ','.
+
+```python
+housing = np.loadtxt('bike1.csv', delimiter=',')
+print(housing.shape)
+```
+Zdarza się, że w plikach csv zawarta jest również informacja o nagłówkach. Tablica NumPy nie może zawierać napisów jeśli pozostała część danych to liczby. Aby w takiej sytuacji wczytać dane należy parametrem *skip=1* zaznaczyć od którego wiersza mają być wczytywane dane (pamiętaj, że w pythonie pierwszy element  w tablicach ma indeks 0).
+
+
+
+
 
 [MLdata]:http://mldata.io
 [Pascal]:https://www.k4all.org/project/25/
