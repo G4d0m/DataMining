@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 05 -- Analiza danych
+mathjax: true
 ---
 
 ## Zbiory danych
@@ -41,7 +42,7 @@ print(iris.target.shape) # rozmiary tablicy celu
 
 > **Zadanie** Wczytaj dane Iris 
 
-łówne struktury danych z obiektu _iris_ to _data_ i _target_.
+główne struktury danych z obiektu _iris_ to _data_ i _target_.
 
 iris.data zawiera **wartości liczbowe** zmiennych (zgodnie z listą *iris.feature_names*) sepal length, sepal width, petal length, petal width uporządkowane w macierz ($150 \times 4$), gdzie 150 to liczba obserwacji a 4 to liczba cech.
 
@@ -60,9 +61,6 @@ sc = pd.plotting.scatter_matrix(df, alpha=0.3, figsize=(10,10), diagonal="hist",
 
 Mimo, iż zbiory te są bardzo przydatne w trakcie nauki bardzo często będziesz musiał zajmować się złożonymi i rzeczywistymi danymi. Stąd potrzebna będzie nam wiedza jak wczytywać dane zewnętrzne.
 
-### Publiczne repozytoria [MLdata.io](MLdata)
-
-Witryna [MLdata.io](MLdata) udostępnia publiczne repozytorium danych do uczenia maszynowego z uczelni TU Berlin University [projekt PASCAL](Pascal).
 
 ## Dane z witryn internetowych - format LIBSVM
 
@@ -234,7 +232,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("polish_names.csv")
 ```
 
-Na początek chcemy wiedzieć bardzo proste rzeczy:
+Na początek chcemy poznać jakie dane mamy do dyspozycji:
 1. Ile jest wierszy (wszystkich obiektów)?
 2. Ile jest kolumn (cechy obiektów)?
 3. Czy są braki w danych?
@@ -285,13 +283,77 @@ df['gender'].value_counts()
 ```
 
 - Męskich imion jest prawie 2 razy więcej (1033 do 672). 
-- Dalej będzie widać, czy jest to jakiś problem dla nas (np. przez to, że imion żeńskich jest mniej, to jakość modelu może być gorsza, jeśli tak jest, to będziemy myśleć, co z tym zrobić).
 
 Model oczekuje na reprezentację liczbową zamiast słowną. Dlatego teraz musimy to przekształcić: 
 * 'f' => 0
 * 'm' => 1
 
-Do tego użyjemy funkcji `.map()`. Żeby lepiej zrozumieć, jak działa funkcja `.map()`, zróbmy to w kilka krokach.
+Do tego użyjemy funkcji `.map()`.
+
+```python
+def transform_string_into_number(string):
+    return int(string == 'm')
+    
+df['gender'].head().map( transform_string_into_number )
+```
+
+Zapiszmy wynik działania funckji do nowej zmiennej `target`.
+Tym razem do otrzymania wyniku użyjemy wyrażenia lambda.
+
+```python
+df['target'] = df['gender'].map(lambda x: int(x == 'm'))
+df.head(10)
+```
+
+### Feature enginneering
+
+Załóżmy, że cechą na podstawie której będziemy chcieli wyznaczyć czy imię jest męskie czy żeńskie będzie długość imienia.
+
+> **Zadanie** Stwórz zmienną (kolumnę), która będzie przechowywać informację o długości imienia.
+
+
+```python 
+df['len_name'] = df['name'].map(lambda x: len(x))
+```
+
+## Twój pierwszy model 
+
+Nie wnikając na razie w same modele nauczmy się jak w bibliotece `sklearn` tworzy się modele. 
+
+```python
+# tablica zmiennych na podstawie których chcemy przeprowadzić analizę
+X = df[ ['len_name'] ].values
+# wyniki dla uczenia z nadzorem
+y = df['target'].values
+# wybierz model 
+model = DummyClassifier()
+# dopasuj model do danych
+model.fit(X, y)
+# stwórz tablicę z predykcjami  
+y_pred = model.predict(X)
+# zobacz ile predykcji model dobrze oznaczył
+accuracy_score(y, y_pred)
+```
+
+Problem klasyfikacji można opisywać liniowym modelem Regresji Logistycznej. 
+
+
+```python
+# tablica zmiennych na podstawie których chcemy przeprowadzić analizę
+X = df[ ['len_name'] ].values
+# wyniki dla uczenia z nadzorem
+y = df['target'].values
+# wybierz model 
+model = LogisticRegression()
+# dopasuj model do danych
+model.fit(X, y)
+# stwórz tablicę z predykcjami  
+y_pred = model.predict(X)
+# zobacz ile predykcji model dobrze oznaczył
+accuracy_score(y, y_pred)
+```
+
+> **Zadanie** Znajdź inne cechy i wygeneruj z nich swoje modele. 
 
 
 
