@@ -199,15 +199,15 @@ stats.ttest_ind(female_viq, male_viq)
 
 # Pivot in Pandas
 
-[Dane do analizy]({filename}/files/sales-funnel.xlsx)
+[Dane do analizy](data/salesfunnel.xlsx)
 
-```{Python}
+```python
 # biblioteki
 import numpy as np
 import pandas as pd
 # załaduj dane
 
-df = pd.read_excel("sales-funnel.xlsx")
+df = pd.read_excel("salesfunnel.xlsx")
 df.head()
 df["Status"] = df["Status"].astype("category")
 df["Status"].cat.set_categories(["won","pending","presented","declined"],inplace=True)
@@ -217,13 +217,13 @@ df["Status"].cat.set_categories(["won","pending","presented","declined"],inplace
 
 Do każdej tabeli pivot mysisz określić ramke danych oraz wskazać index.
 
-```{Python}
+```python
 pd.pivot_table(df,index=["Name"])
 ```
 
 Index może zawierać więcej niż jedną kolumnę.
 
-```{python}
+```python
 pd.pivot_table(df,index=["Name","Rep","Manager"])
 ```
 
@@ -235,7 +235,7 @@ Pierwszym agregatem będzie suma (_np.sum_). Ustawiamy ją dla parametry _aggfun
 
 Możemy korzystać również z listy i podać więcej agregacji.
 
-```{Python}
+```python
 pd.pivot_table(df,index=["Manager", "Rep"])
 
 pd.pivot_table(df,index=["Manager","Rep"],values=["Price"])
@@ -247,19 +247,19 @@ pd.pivot_table(df,index=["Manager","Rep"],values=["Price"],aggfunc=[np.mean,len]
 
 Opcja columns jest opcjonalna. Warto pamiętać, że agregacje tyczą się opcji values.
 
-```{Python}
+```python
 pd.pivot_table(df,index=["Manager","Rep"],values=["Price"],columns=["Product"],aggfunc=[np.sum])
 ```
 
 Wartości NAN
 
-```{Python}
+```python
 pd.pivot_table(df,index=["Manager","Rep"],values=["Price"],columns=["Product"],aggfunc=[np.sum],fill_value=0)
 # dodajmy jeszcze quantity
 pd.pivot_table(df,index=["Manager","Rep"],values=["Price","Quantity"], columns=["Product"],aggfunc=[np.sum],fill_value=0)
 ```
 
-```{Python}
+```python
 pd.pivot_table(df,index=["Manager","Status"],columns=["Product"],values=["Quantity","Price"],aggfunc={"Quantity":len,"Price":np.sum},fill_value=0)
 
 table = pd.pivot_table(df,index=["Manager","Status"],columns=["Product"],values=["Quantity","Price"],aggfunc={"Quantity":len,"Price":[np.sum,np.mean]},fill_value=0)
@@ -270,13 +270,13 @@ table
 
 Z otrzymanej poprzednio tabeli znajdźmy info o _Debra Henley_.
 
-```{Python}
+```python
 table.query('Manager == ["Debra Henley"]')
 ```
 
 lub
 
-```{python}
+```python
 table.query('Status == ["pending","won"]')
 ```
 
