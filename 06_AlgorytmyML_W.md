@@ -102,3 +102,16 @@ Klasyfikacja jest procesem dwuetapowym.
     - trening, uczenie się modelu na zbiorze treningowym z wykorzystaniem algorytmu uczącego się. Tzw. uczenie z nadzorem.
 2. Krok testowania, na zbiorze testowym. Jeśli jakość modelu jest odpowiednia można wykorzystać go do nowych rekordów dla których wartości zmiennej celu nie są znane.
 
+## Klasyfikator najbliższego sąsiada kNN
+
+**Klasyfikatory najbliższego sąsiedztwa** należą do grupy klasyfikatorów opartych na analizie przypadku tzn. nie konstruuje się w nich modelu klasyfikacyjnego a analiza dokonywana jest on-line. Metody te nazywane są często leniwymi metodami uczącymi.
+
+Podstawowe wersje algorytmów przeznaczone są do klasyfikacji danych liczbowych. Każdy rekord zbioru treningowego to element n-wymiarowej przestrzeni wzorców. Zakładamy, że zbiór treningowy jest nie tylko zbiorem danych ale przedstawia on model klasyfikacyjny. Podstawowa wersja oznaczana jako $1NN$ przy klasyfikacji nowego rekordu $X$ wybiera obiekt $Y$ najbliższy obiektowi $X$ i przydziela mu wartość atrybutu decyzyjnego obiektu $Y$. Algorytm ten generuje duże błędy dla punktów zaszumionych i osobliwych.
+
+Rozszerzeniem algorytmu $1NN$ jest algorytm $kNN$ - k najbliższego sąsiedztwa.
+
+W przypadku nowego rekordu $X$ wyszukiwane jest $k$ obiektów w przestrzeni wzorców (ze zbioru treningowego) najbliższych dla $X$. Następnie wykorzystując algorytm głosowania większościowego wybierana jest klasa która dominuje w zbiorze najbliższych sąsiadów. Często też korzysta się z algorytmu ważonego kNN gdzie głosy sąsiadów mają swoje wagi.
+
+W tej klasie algorytmów największe znaczenie ma przyjęta miara odległości. Jeśli wszystkie atrybuty są numeryczne to przestrzeń wzorców jest przestrzenią Euklidesową.
+
+![knn](img/rys13.png)
