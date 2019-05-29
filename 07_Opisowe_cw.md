@@ -1,6 +1,7 @@
 ---
 layout: page
-title: 06 -- Statystyki opisowe
+title: 07 -- Statystyki opisowe
+mathjax: true
 ---
 
 
