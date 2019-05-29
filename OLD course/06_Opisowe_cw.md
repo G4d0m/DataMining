@@ -1,9 +1,8 @@
----
-layout: page
-title: 06 -- Statystyki opisowe
----
-
-
+title: Klasyfikacja
+slug: kNN
+category: Cwiczenia
+date: 2018-04-12
+Author: Sebastian Zajac
 ## Iris data
 
 Korzystając z biblioteki sklearn wczytaj dane Iris.
