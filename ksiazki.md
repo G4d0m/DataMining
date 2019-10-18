@@ -10,7 +10,7 @@ title: Książki
 
 2. Aurelien Geron _Uczenie maszynowe z użyciem Scikit-Learn i TensorFlow_. [Zobacz opis](http://helion.pl/view/111546/uczema.html) lub [Kup książkę](http://helion.pl/add111546~uczema).
 
-3. Alberto Boschetti, Luca Massaron _Python. Podstawy nauki o danych_. [Zobacz opis](http://helion.pl/view/111546/uczema.html) lub [Kup książkę](http://helion.pl/add111546~uczema).
+3. Alberto Boschetti, Luca Massaron _Python. Podstawy nauki o danych_. [Zobacz opis](http://helion.pl/view/111546/pypod2.html) lub [Kup książkę](http://helion.pl/add111546~pypod2).
 
 4. Sebastian Raschka _Python. Uczenie maszynowe. Wydanie II_. [Zobacz opis](http://helion.pl/view/111546/pythu2.html) lub [Kup książkę](http://helion.pl/add111546~pythu2).
 
@@ -29,7 +29,7 @@ title: Książki
 
 ## Python
 
-1. C. Althoff, _Programista Samouk_. [Zobacz opis](http://helion.pl/view/111546/althoff) lub [Kup teraz](ttp://helion.pl/add111546~althoff) 
+1. C. Althoff, _Programista Samouk_. [Zobacz opis](http://helion.pl/view/111546/proprs) lub [Kup teraz](ttp://helion.pl/add111546~proprs) 
 
 2. A. Sweigart, _Automatyzacja nudnych zadań z pythonem_. [Zobacz opis](http://helion.pl/view/111546/autopy) lub [Kup książkę](ttp://helion.pl/add111546~autopy)
 
